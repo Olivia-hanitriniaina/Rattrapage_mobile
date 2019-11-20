@@ -1,0 +1,59 @@
+[
+    {
+        "id" : 1,
+        "name" : "pizza special gastro",
+        "price" : 15000,
+        "preparation" : "00:30:00",
+        "image":""
+    },
+    {
+        "id" : 2,
+        "name" : "assiette kebab",
+        "price" : 8000,
+        "preparation" : "00:15:00",
+        "image":""
+    },
+    {
+        "id" : 3,
+        "name" : "Glace corné",
+        "price" : 3000,
+        "preparation" : "00:5:00",
+        "image":""
+    },
+    {
+        "id" : 4,
+        "name" : "Jus naturel",
+        "price" : 2500,
+        "preparation" : "00:2:00",
+        "image":""
+    },
+    {
+        "id" : 5,
+        "name" : "humberger",
+        "price" : 7000,
+        "preparation" : "00:30:00",
+        "image":""
+    },
+    {
+        "id" : 6,
+        "name" : "Big Love",
+        "price" : 15000,
+        "preparation" : "00:30:00",
+        "image":""
+    },
+    {
+        "id" : 7,
+        "name" : "pizza au poulet",
+        "price" : 12000,
+        "preparation" : "00:20:00",
+        "image":""
+    },
+    {
+        "id" : 8,
+        "name" : "Soupe tamatave",
+        "price" : 12000,
+        "preparation" : "00:25:00",
+        "image":""
+    }
+   
+]

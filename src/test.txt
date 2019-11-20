@@ -1,0 +1,6 @@
+0 update 
+1 insert
+
+p3 manao select anaty price_line where visit_sheet_id = ? and product_id = ?
+if misy dia update quantity 
+else insert into _price line

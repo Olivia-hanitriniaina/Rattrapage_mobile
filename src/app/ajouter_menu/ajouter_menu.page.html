@@ -1,0 +1,41 @@
+<div class="real-content-page">
+	<form (ngSubmit) = "save_new_client()">
+		<div class = "photo  ui-g">
+				<div class="ui-g-9">
+					
+				</div>
+	
+				<div class="cam ui-g-3">
+					<div  *ngIf = "!filePath"> <i class="pi pi-camera" style="font-size: 100px ; color: gray" ></i> <br /></div>
+					<div *ngIf = "filePath" [style.background] = "'url('+ filePath +')'" [style.background-size] = "cover" class="contentAvatar" (click) = "open_full_screen()"></div>
+					<div class="del_mod_btn">
+					<button pButton type="button" icon="pi pi-pencil" iconPos="center" class="bt ui-button-success" (click)="showImageFromCamera()"></button>
+					<button pButton type="button" icon="pi pi-trash" iconPos="center" class="bt ui-button-danger" (click) = "remove_image()"></button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<span class="ui-float-label">
+			<input   [(ngModel)]="formulaire.name"  name = "name" id="float-input" type="text" size="30" pInputText > 
+			<label for="float-input">product name</label>
+			</span>
+			<br>
+			<br>
+			<span class="ui-float-label">
+			<input [(ngModel)]="formulaire.price" name = "price" id="float-input" type="text" size="30" pInputText > 
+			<label for="float-input">product price</label>
+			</span>	
+			<br>
+			<br>
+			<span class="ui-float-label">
+			<input [(ngModel)]="formulaire.preparation" name="preparation" type="text" pInputText >
+			<label for="float-input">00:00:00</label>
+			</span>
+			<br>
+			<button pButton type="submit" label="valider" class="bt btn-retour"></button>
+			<span style="margin-left: 5px;margin-right: 5px;">ou</span>
+			<button pButton type="button" label="retour" class="bt" (click)="retour()"></button>
+	</form>
+</div>

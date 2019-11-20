@@ -1,0 +1,8 @@
+[
+    {
+        "Iduser" : 1,
+        "login" : "admin",
+        "mdp" : "admin123",
+       "active" : 0
+    }
+]
